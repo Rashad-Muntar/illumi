@@ -189,7 +189,49 @@ body{
 }
 
 
+@media screen and (max-width: 768px) {
+   
+    .jumbo-text{
+      margin-left: 70px;
+      
+        h2{
+         
+         font-size: 2.5em;
+         width: 90%;
+        }
 
+        p{
+            font-size: 1.2em; 
+        }
+    }
+
+    
+.about-us{
+    width: 90vw;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+}
+
+.apply{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 40px 20px;
+    padding-bottom: 70px;
+
+    h5{
+
+        font-size: 2em;
+    }
+
+    input{
+        width: 100vw !important;
+        
+    }
+}
+
+}
 
 
 @media screen and (max-width: 480px) {
@@ -236,46 +278,3 @@ body{
 
 }
 
-@media screen and (max-width: 768px) {
-   
-    .jumbo-text{
-      margin-left: 70px;
-      
-        h2{
-         
-         font-size: 2.5em;
-         width: 90%;
-        }
-
-        p{
-            font-size: 1.2em; 
-        }
-    }
-
-    
-.about-us{
-    width: 90vw;
-    padding-left: 40px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-
-}
-
-.apply{
-    width: 100vw;
-    margin: 0 auto;
-    padding: 40px 20px;
-    padding-bottom: 70px;
-
-    h5{
-
-        font-size: 2em;
-    }
-
-    input{
-        width: 100vw !important;
-        
-    }
-}
-
-}
