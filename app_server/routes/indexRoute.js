@@ -4,10 +4,10 @@ const indexCtrl = require("../controller/indexCtrl")
 const passport = require("passport")
 const middleware = require("../controller/middleware")
 
-router.get("/authentic", indexCtrl.home)
+router.get("/home", indexCtrl.home)
 
 router.get("/", (req, res)=>{
-    res.redirect("/authentic")
+    res.redirect("/home")
 })
 
 router.get("/authentic/about", indexCtrl.about)
