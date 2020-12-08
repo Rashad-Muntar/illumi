@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav {
+  background-color: #431515 !important;
+  margin: 0 !important;
+}
+
+.main-nav img {
+  width: 70px;
+}
+
+.main-nav li a {
+  font-weight: 600 !important;
+  color: white !important;
+}
+
+.main-nav li:hover {
+  background-color: #251818;
+}
+
+.uk-position-relative {
+  margin: 0 !important;
+  position: relative !important;
+  border-bottom: 2px solid white;
+}
+
+.jumbo-text {
+  margin-left: 150px;
+  z-index: 2;
+}
+
+.jumbo-text h2 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3em;
+  width: 70%;
+}
+
+.jumbo-text p {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.3em;
+}
+
+.jumbo-text a {
+  padding: 15px 35px;
+  background-color: #dbdbdb;
+  color: #431515;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.jumbo-text a:hover {
+  color: black;
+}
+
+#top-nav {
+  background-color: #919191;
+  height: 40px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+#top-nav .uk-navbar-left {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#top-nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#top-nav li a {
+  font-size: 0.9em;
+  color: #f0f0f0;
+  font-weight: 600;
+}
+
+#top-nav li a span {
+  margin-right: 15px;
+}
+
+.jumbo-overlay {
+  background: black;
+  background: -webkit-gradient(left top, right top, color-stop(0%, black), color-stop(45%, black), color-stop(100%, #474747));
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(45%, black), to(#474747));
+  background: linear-gradient(to right, black 0%, black 45%, #474747 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#474747', GradientType=1 );
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about-us {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.about-us h5 {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  font-size: 3em;
+}
+
+.about-us p {
+  color: white;
+  font-size: 1.2em;
+}
+
+.apply {
+  background-image: url("/images/back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 70px 50px;
+}
+
+.apply h5 {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  font-size: 3em;
+}
+
+.apply form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.apply input {
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+}
+
+.apply .field {
+  background-color: white;
+  border-radius: 7px;
+  width: 48%;
+  margin: 15px 0;
+}
+
+.chat {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+.chat span {
+  width: 70px;
+  height: 70px;
+  color: white;
+  background-color: #0a960a;
+  padding: 5px;
+  margin-left: 70px;
+}
+/*# sourceMappingURL=customstyles.css.map */

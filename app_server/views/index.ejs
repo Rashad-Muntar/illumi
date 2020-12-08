@@ -1,0 +1,80 @@
+<%- include("./partials/header") %>
+  
+
+<main> </main>
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push; min-height: 300; max-height: 540; autoplay: true">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/illu3.jpg" alt="" uk-cover>
+            <div class="uk-position-center-left uk-position-small jumbo-text">
+                <h2 uk-slideshow-parallax="x: 100,-100">Official Illuminati Ghana</h2>
+                <p uk-slideshow-parallax="x: 200,-200">You have taken the first step in the right directions</p>
+                <a href="#apply" uk-scroll>Apply here</a>
+            </div>
+            <div class="jumbo-overlay"></div>
+        </li>
+        <li>
+            <img src="images/illu2.jpg" alt="" uk-cover>
+            <div class="uk-position-center-left uk-position-small jumbo-text">
+                <h2 uk-slideshow-parallax="x: 100,-100">Become a member of Order of the Illuminati</h2>
+                <p uk-slideshow-parallax="x: 200,-200">You can apply here with few easy steps</p>
+                <a href="#apply" uk-scroll>Apply here</a>
+            </div>
+            <div class="jumbo-overlay"></div>
+        </li>
+        <li>
+            <img src="images/illu.jpg" alt="" uk-cover>
+            <div class="uk-position-center-left uk-position-small jumbo-text">
+                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Meet Diverse Interest</h2>
+                <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">You only need to commit to what you want or can, in time an effort</p>
+                <a href="#apply" uk-scroll>Apply here</a>
+            </div>
+            <div class="jumbo-overlay"></div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+
+<section class="about-us" id="about-us" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+<h5 uk-scrollspy="cls: uk-animation-slide-left; repeat: true">About us</h5>
+<p>If you have an interest in joining Illuminati, you have taken your first step in the right direction. Order of The Illuminati can be such a diverse interest and has the potential for a life long affair that gives back continually. The beauty of how Order of The Illuminati works is you only need to commit what you want or can, in time and effort. Tasks and roles are never forced upon you.
+
+    To become member of Order of The Illuminati traditionally you need to be invited from a member. However, now, with new technologies you have opportunity to apply here, online.
+    
+    There is no guaranty that applying here you will become member of The Illuminati.
+    You will need to pass preliminary screening. There are also some requirements:</p>
+</section>
+
+<section class="apply" id="apply">
+    <h5>You can apply here</h5>
+    <form class="uk-grid-small" uk-grid>
+        <div class=" uk-inline field top" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <span class="uk-form-icon" uk-icon="icon: user"></span>
+            <input class="uk-input" type="text" placeholder="Full Name">
+        </div>
+        <div class=" uk-inline field" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <span class="uk-form-icon" uk-icon="icon: world"></span>
+            <input class="uk-input" type="text" placeholder="Location">
+        </div>
+        <div class=" uk-inline field top" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <span class="uk-form-icon" uk-icon="icon: receiver"></span>
+            <input class="uk-input" type="text" placeholder="Phone/Whatssap">
+        </div>
+        <div class=" uk-inline field" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <span class="uk-form-icon" uk-icon="icon: mail"></span>
+            <input class="uk-input" type="text" placeholder="E-mail">
+        </div>
+    </form>
+</section>
+
+<section>
+    <a class="chat" href="https://wa.me/00233246949634/?text=Chat with Illuminati order of Ghana" target="_blank">
+        <span uk-icon="icon: whatsapp; ratio: 7.5" class="uk-icon-button"></span>
+    </a> 
+</section>
+
+<%- include("./partials/footer") %>
